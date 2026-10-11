@@ -30,7 +30,7 @@ class Driver {
             System.out.println(e.getMessage());
         }
     }
-
+}
   //Q2
   <!DOCTYPE html>
 <html>
