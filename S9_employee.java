@@ -39,10 +39,6 @@ class Employee {
     }
 
   //Q2
-  <!DOCTYPE html>
-<html>
-<body>
-<script>
 let a = 20, b = 10;
 
 let add = (a, b) => a + b;
@@ -50,12 +46,7 @@ let sub = (a, b) => a - b;
 let mul = (a, b) => a * b;
 let div = (a, b) => a / b;
 
-document.write("Addition = " + add(a, b) + "<br>");
-document.write("Subtraction = " + sub(a, b) + "<br>");
-document.write("Multiplication = " + mul(a, b) + "<br>");
-document.write("Division = " + div(a, b));
-</script>
-</body>
-</html>
-
-}
+console.log("Addition = " + add(a, b));
+console.log("Subtraction = " + sub(a, b));
+console.log("Multiplication = " + mul(a, b));
+console.log("Division = " + div(a, b));
